@@ -15,10 +15,8 @@ function main() {
     {
       if (myEnemy.IsReallyHated);
       {
-        console.log(`$"{myEnemy.FirstName} {myEnemy.LastName} (Really, really dislike!"`)
-      }
-      else
-      {
+        console.log(`$"{myEnemy.FirstName} {myEnemy.LastName} (Really, really dislike!"`);
+      }else {
         console.log(`$"{myEnemy.FirstName} {myEnemy.LastName}"`);
       }
     }
@@ -72,4 +70,12 @@ function main() {
     }
   ]
 }
+if (IsReallyHated === true) {
+  console.log(`${FirstName} ${LastName}+ Really Really Dislike`)
+
+} else {
+  console.log(`${FirstName} ${LastName}`)
+}
+
+
 main();
