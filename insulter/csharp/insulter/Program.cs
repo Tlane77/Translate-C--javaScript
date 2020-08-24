@@ -38,7 +38,7 @@ namespace insulter
                 string insult = insults[insultValue];
 
                 // if the insult value assignment is already assigned dont do anything }else{ add number and Console.WriteLine(insult)
-                //else add the number and console the insult
+                //else ADD the insultCount random number and Console the insult
                 while (!insultsContainer.Contains(insultValue))
                 {
                     insultsContainer.Add(insultValue);
