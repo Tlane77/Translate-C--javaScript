@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Route } from "react-router-dom";
+// import React, { useState } from "react";
+// import { Route } from "react-router-dom";
 
 
 function main() {
@@ -70,11 +70,13 @@ function main() {
     }
   ]
 }
-if (IsReallyHated === true) {
-  console.log(`${FirstName} ${LastName}+ Really Really Dislike`)
+for (enemy of enemies) {
+  if (enemy.IsReallyHated === true) {
+    console.log(`${enemy.FirstName} ${enemy.LastName} (Really Really Dislike)`)
 
-} else {
-  console.log(`${FirstName} ${LastName}`)
+  } else {
+    console.log(`${enemy.FirstName} ${enemy.LastName}`)
+  }
 }
 
 
